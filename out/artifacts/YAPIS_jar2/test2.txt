@@ -1,0 +1,19 @@
+main
+<
+    list = {1 2 33 4 5};
+    el = 121;
+    list.add(el);
+    i = 0;
+    range i -> list
+    <
+    show(i);
+    >;
+    return;
+>
+
+void [] show([int] s)
+<
+    out s;
+    return;
+>
+

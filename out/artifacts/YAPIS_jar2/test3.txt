@@ -1,0 +1,23 @@
+main
+<
+    element1 = 0;
+    element2 = 0;
+    in element1;
+    in element2;
+    i = 0;
+    range i -> 10
+    <
+
+    >;
+    sum(element1, element2, i);
+    return;
+>
+
+void [] sum([int] s1, [int] s2, [int] s3)
+<
+    r = s1 + s2 + s3;
+    out r;
+    return;
+>
+
+

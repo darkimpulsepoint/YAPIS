@@ -1,0 +1,26 @@
+main
+<
+    elem = 1;
+    in elem;
+    sum(elem);
+    return;
+>
+void [] sum([element] e)
+<
+    i = e;
+    sumValue = 0;
+
+    ? ( e <> 3)
+    <
+        _sumValue + i;
+        u = 0;
+        u2 = 10;
+        range u -> u2
+        <
+            _u + 2;
+        >;
+        _sumValue + u;
+    >;
+    out sumValue;
+    return;
+>
